@@ -1,0 +1,205 @@
+.App {
+  text-align: center;
+}
+.cart-animal li {
+  list-style: none;
+  font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    margin: 10px 0;
+}
+.bady-1 {
+  width: 100%;
+  background: #4dcfc5;
+}
+.bloc-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cart-animal li:nth-child(2) {
+  margin-top: 5px;
+  color: #b95d17;
+  font-size: 16px;
+}
+.cart-animal li:nth-child(3) {
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 500;
+}
+.bady-2 {
+  width: 100%;
+  background: #2a6118;
+}
+.bady-2 h1 {
+  color: #a46c20;
+}
+.bady-info-card.card {
+  margin: auto;
+  border: none;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.bady-3 h1 {
+  color: #380b0b;}
+.bady-3 {
+  width: 100%;
+  background: #cfd4c7;
+}
+.cart-animal {
+  margin-top: 30px;
+  min-height: 450px;
+  width: calc(100% - 40px);
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 46px;
+  background: #012815;
+  border-radius: 20px;
+  overflow: hidden;
+}
+button.btn.btn-info {
+  background: #b95d17;
+  border-color: #b95d17;
+  color: #fff;
+  font-size: 20px;
+  width: 136px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.items-movie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.items-movie .card {
+  margin: 20px;
+}
+.navbar-expand .navbar-nav {
+  margin: auto;
+}
+a.navbar-brand img {
+  object-fit: cover;
+}
+a.nav-link {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 0 31px !important;
+}
+.navbar input.form-control {
+  margin: 0 10px !important;
+}
+.mb-3.input-group {
+  margin-top: 1rem;
+}
+input.form-control {
+  max-width: 400px;
+  margin: auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+div#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.card {
+  margin-bottom: 50px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+nav.menu-navbar.navbar.navbar-expand.navbar-light {
+  background: #013119;
+  width: 100%;
+}
+.App-link {
+  color: #61dafb;
+}
+.box-task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.bady-1 h1 {
+  color: #742a1c;
+}
+.bady-home {
+  width: 100%;
+  background: #5fdc81;
+}
+.right-side img {
+  max-height: 650px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.bady-home p {
+  color: #fff;
+  font-size: 25px;
+}
+p.card-text {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #835c00;
+}
+button.btn.btn-outline-primary {
+  background: #d7df23;
+  color: #012815;
+  font-size: 18px;
+  font-weight: 600;
+  border-color: #d7df23;
+  margin-top: 20px;
+  width: 150px;
+  border-radius: 25px;
+}
+.bady-info {
+  width: 100%;
+  background: #766f6f;
+  padding: 30px;
+  text-align: center;
+}
+.left-side {
+  margin-top: 30px;
+}
+.box h2 {
+  color: #e2590b;
+}
+.cart-animal ul {
+  padding: 8px 10px;
+}
+@media (max-width: 767px){
+  .me-auto.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bady-info {
+    width: 100%;
+    padding: 50px 20px;
+    margin: auto;
+}
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
